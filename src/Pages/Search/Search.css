@@ -1,0 +1,43 @@
+.search {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+}
+.search input{
+    background-color: #474954;
+    color: dodgerblue;
+    width:35rem;
+    padding: 0.6rem;
+    outline: none;
+    border-radius: 0.5rem;
+}
+
+.searchButton {
+    width:10rem;
+    height:2.1rem;
+    color:dodgerblue;
+    font-weight: 700;
+}
+
+.searchInput:focus {
+    box-shadow:0 0 0 1px dodgerblue;
+    background-color: #fff;
+}
+
+::placeholder {
+    color: dodgerblue;
+    opacity:1;
+}
+
+.trending {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+.filterContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
