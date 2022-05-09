@@ -6,6 +6,7 @@ This has been developed using React and React-Query.
 
 # Getting Started
 
-`npm i
+```npm i
 
-npm run start`
+npm run start
+```
